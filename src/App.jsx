@@ -12,7 +12,15 @@ function App() {
           element={<MainPage />} />
 
         <Route
+          path="/personnel"
+          element={<ServAndPrices />} />
+
+        <Route
           path="/services-and-prices"
+          element={<ServAndPrices />} />
+
+        <Route
+          path="/contacts"
           element={<ServAndPrices />} />
 
         <Route

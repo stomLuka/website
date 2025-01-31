@@ -25,6 +25,31 @@ const MainPageMain = () => {
                         </li>
                     </ul>
                 </div>
+
+                <h1 style={{ paddingBottom: '1rem' }} >Мы на карте</h1>
+
+                <div className="map" style={{ position: 'relative', overflow: 'hidden' }}>
+                    <a
+                        href="https://yandex.ru/maps/11307/kansk/?utm_medium=mapframe&utm_source=maps"
+                        style={{ color: '#eee', fontSize: '12px', position: 'absolute', top: '0px' }}
+                    >
+                        Канск
+                    </a>
+                    <a
+                        href="https://yandex.ru/maps/11307/kansk/house/ulitsa_40_let_oktyabrya_62/bUwYcQdgSU0AQFtsfX5ydX5mYQ==/inside/?ll=95.700087%2C56.234255&tab=inside&utm_medium=mapframe&utm_source=maps&z=16.61"
+                        style={{ color: '#eee', fontSize: '12px', position: 'absolute', top: '14px' }}
+                    >
+                        Улица 40 лет Октября, 62 — Яндекс Карты
+                    </a>
+                    <iframe
+                        src="https://yandex.ru/map-widget/v1/?ll=95.700087%2C56.234255&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NjI1Njg5ORJk0KDQvtGB0YHQuNGPLCDQmtGA0LDRgdC90L7Rj9GA0YHQutC40Lkg0LrRgNCw0LksINCa0LDQvdGB0LosINGD0LvQuNGG0LAgNDAg0LvQtdGCINCe0LrRgtGP0LHRgNGPLCA2MiIKDXJmv0IV4e9gQg%2C%2C&tab=inside&z=16.61"
+                        width="560"
+                        height="400"
+                        frameBorder="1"
+                        allowFullScreen="true"
+                        style={{ position: 'relative' }}
+                    ></iframe>
+                </div>
             </div>
 
 

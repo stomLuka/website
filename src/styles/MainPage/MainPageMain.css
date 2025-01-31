@@ -2,6 +2,17 @@
     background-image: url('./background-1080.png');
     background-size: inherit;
     background-repeat: repeat;
+    animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .main-container {
@@ -13,7 +24,7 @@
 
 .main-img {
     width: 100%;
-    max-width: 1200px;
+    max-width: 800px;
     height: auto;
     border-radius: 20%;
     padding: 5rem;
@@ -82,11 +93,27 @@
     .main-container {
         margin: 0 12rem;
     }
+
+    iframe {
+        max-width: 1350px;
+    }
+
+    .map {
+        padding-bottom: 5rem;
+    }
 }
 
 @media (max-width: 1450px) {
     .main-container {
         margin: 0 3rem;
+    }
+
+    iframe {
+        max-width: 1000px;
+    }
+
+    .map {
+        padding-bottom: 5rem;
     }
 }
 
@@ -100,11 +127,27 @@
     .main-txt {
         padding: 3rem;
     }
+
+    iframe {
+        max-width: 720px;
+    }
+
+    .map {
+        padding-bottom: 5rem;
+    }
 }
 
 @media (max-width: 724px) {
     .main-txt {
         padding: 2rem;
+    }
+
+    iframe {
+        max-width: 460px;
+    }
+
+    .map {
+        padding-bottom: 3rem;
     }
 }
 
@@ -112,11 +155,23 @@
     .main-txt {
         padding: 2rem;
     }
+
+    iframe {
+        max-width: 340px;
+    }
+
+    .map {
+        padding-bottom: 3rem;
+    }
 }
 
 @media (max-width: 360px) {
     .main-txt {
         padding: 2rem;
+    }
+
+    iframe {
+        max-width: 300px;
     }
 }
 
