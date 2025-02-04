@@ -44,9 +44,9 @@ const Header = () => {
                         </div>
                         <div className={`dropdown-menu ${isMenuOpen ? 'active' : ''}`} ref={menuRef}>
                             <Link to="/main-page" onClick={closeMenu}>Главная</Link>
-                            <Link to="/" onClick={closeMenu}>Персонал</Link>
-                            <Link to="/services-and-prices" onClick={closeMenu}>Услуги</Link>
-                            <Link to="/" onClick={closeMenu}>Контакты</Link>
+                            <Link to="/personnel" onClick={closeMenu}>Персонал</Link>
+                            <Link to="/services-and-prices" onClick={closeMenu}>Услуги и цены</Link>
+                            <Link to="/contacts" onClick={closeMenu}>Контакты</Link>
                         </div>
                     </div>
                 </nav>

@@ -1,0 +1,144 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --background-color: #f5f7fa;
+    --text-color: #333;
+    --border-color: #e0e0e0;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 1rem;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+.personnel-title {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.personnel-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.person-container {
+    background-color: var(--background-color);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.person-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.person-name {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--secondary-color);
+    padding-bottom: 0.5rem;
+}
+
+.person-text {
+    list-style: none;
+    padding: 0;
+}
+
+.person-text-el {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.person-text-el strong {
+    color: var(--secondary-color);
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.back-to-top:hover {
+    background-color: var(--secondary-color);
+}
+
+/* Адаптивный дизайн */
+
+@media (max-width: 1450px) {
+    .main-container {
+        max-width: 1000px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .main-container {
+        max-width: 800px;
+    }
+
+    .personnel-title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 724px) {
+    .main-container {
+        padding: 1.5rem;
+    }
+
+    .personnel-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .personnel-title {
+        font-size: 1.75rem;
+    }
+
+    .person-name {
+        font-size: 1.25rem;
+    }
+
+    .person-text-el {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .main-container {
+        padding: 1rem;
+    }
+
+    .personnel-title {
+        font-size: 1.5rem;
+    }
+}

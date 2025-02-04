@@ -1,15 +1,16 @@
 import React from 'react';
 import Header from '../components/Header';
-import ServAndPricesMain from '../components/ServAndPrices/ServAndPricesMain';
+import ContactsMain from '../components/ContactsPage/ContactsMain';
 import Footer from '../components/Footer';
-const ServAndPrices = () => {
+
+const Contacts = () => {
     return (
         <>
             <Header />
-            <ServAndPricesMain />
+            <ContactsMain />
             <Footer />
         </>
     );
 };
 
-export default ServAndPrices;
+export default Contacts;

@@ -1,22 +1,16 @@
-import { Link } from "react-router-dom"
 import { HashLink } from "react-router-hash-link"
-import "../../styles/MainPage/MainPageMain.css"
-import MainPictureBig from "../../assets/MainPictureBig.png"
+import "../../styles/ContactsPage/ContactsMain.css"
 
-const MainPageMain = () => {
+const ContactsMain = () => {
     return (
-        <main className="main">
-            <HashLink className="back-to-top" to="#top">
+        <main className="contacts-main">
+            <HashLink className="contacts-back-to-top" to="#top">
                 ↑
             </HashLink>
-            <div className="main-container">
-                <h1 className="main-title-text">Добро пожаловать в нашу стоматологическую клинику</h1>
-                <img className="main-img" src={MainPictureBig || "/placeholder.svg"} alt="Персонал клиники" />
-                <Link className="main-btn" to="/services-and-prices">
-                    Услуги и цены
-                </Link>
+            <div className="contacts-main-container">
+                <h1 className="contacts-page-title">Контакты</h1>
 
-                <div className="contacts-info-container">
+                <div className="contacts-inform-container">
                     <div className="contacts-info-box">
                         <ul className="contacts-info-list">
                             <li className="contacts-info-item">
@@ -51,22 +45,10 @@ const MainPageMain = () => {
                         </ul>
                     </div>
                 </div>
-
-                <h2 className="main-title">Мы на карте</h2>
-
-                <div className="map">
-                    <iframe
-                        src="https://yandex.ru/map-widget/v1/?ll=95.700087%2C56.234255&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NjI1Njg5ORJk0KDQvtGB0YHQuNGPLCDQmtGA0LDRgdC90L7Rj9GA0YHQutC40Lkg0LrRgNCw0LksINCa0LDQvdGB0LosINGD0LvQuNGG0LAgNDAg0LvQtdGCINCe0LrRgtGP0LHRgNGPLCA2MiIKDXJmv0IV4e9gQg%2C%2C&tab=inside&z=16.61"
-                        width="100%"
-                        height="400"
-                        frameBorder="0"
-                        allowFullScreen={true}
-                    ></iframe>
-                </div>
             </div>
         </main>
     )
 }
 
-export default MainPageMain
+export default ContactsMain
 

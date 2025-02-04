@@ -2,6 +2,8 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import MainPage from './pages/MainPage.jsx';
 import ServAndPrices from './pages/ServAndPrices.jsx';
 import NotFound from './pages/NotFound.jsx';
+import Personnel from './pages/Personnel.jsx';
+import Contacts from './pages/Contacts.jsx';
 
 function App() {
   return (
@@ -13,7 +15,7 @@ function App() {
 
         <Route
           path="/personnel"
-          element={<ServAndPrices />} />
+          element={<Personnel />} />
 
         <Route
           path="/services-and-prices"
@@ -21,7 +23,7 @@ function App() {
 
         <Route
           path="/contacts"
-          element={<ServAndPrices />} />
+          element={<Contacts />} />
 
         <Route
           path="/"
