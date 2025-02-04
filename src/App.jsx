@@ -4,6 +4,7 @@ import ServAndPrices from './pages/ServAndPrices.jsx';
 import NotFound from './pages/NotFound.jsx';
 import Personnel from './pages/Personnel.jsx';
 import Contacts from './pages/Contacts.jsx';
+import Documents from './pages/Documents.jsx';
 
 function App() {
   return (
@@ -24,6 +25,10 @@ function App() {
         <Route
           path="/contacts"
           element={<Contacts />} />
+
+        <Route
+          path="/documents"
+          element={<Documents />} />
 
         <Route
           path="/"

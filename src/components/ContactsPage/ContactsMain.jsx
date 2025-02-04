@@ -50,5 +50,4 @@ const ContactsMain = () => {
     )
 }
 
-export default ContactsMain
-
+export default ContactsMain;
