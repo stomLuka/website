@@ -134,6 +134,7 @@ main {
     border-radius: 10px;
     overflow: hidden;
     margin: auto;
+    margin-bottom: 2rem;
 }
 
 .map iframe {
@@ -210,6 +211,7 @@ main {
 
     .map {
         height: 300px;
+        width: 280px;
     }
 }
 
