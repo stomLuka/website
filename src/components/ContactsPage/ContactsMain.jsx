@@ -24,6 +24,8 @@ const ContactsMain = () => {
                                 663606, Красноярский край, г.Канск,
                                 <br />
                                 ул.40 лет Октября, д.62, строение 4, пом.75
+                                <br />
+                                ТРЦ "Порт Артур" 1 этаж
                             </li>
                             <li className="contacts-info-item">
                                 <strong>Директор:</strong>
