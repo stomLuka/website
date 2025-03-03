@@ -20,7 +20,7 @@ const MainPageMain = () => {
                     Оказываем взрослому населению медицинскую стоматологическую помощь</h1>
                 <img className="main-img" src={MainPictureBig || "/placeholder.svg"} alt="Персонал клиники" />
                 <Link className="main-btn" to="/services-and-prices">
-                    Услуги и цены
+                    Прейскурант
                 </Link>
 
                 <div className="contacts-info-container">
