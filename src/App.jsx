@@ -13,7 +13,7 @@ function App() {
     <>
       <Routes>
         <Route
-          path="/main-page"
+          path="/главная"
           element={<MainPage />} />
 
         <Route
@@ -21,15 +21,15 @@ function App() {
           element={<InformationPage />} />
 
         <Route
-          path="/personnel"
+          path="/врачи"
           element={<Personnel />} />
 
         <Route
-          path="/services-and-prices"
+          path="/прейскурант"
           element={<ServAndPrices />} />
 
         <Route
-          path="/contacts"
+          path="/контакты"
           element={<Contacts />} />
 
         <Route
@@ -37,12 +37,12 @@ function App() {
           element={<License />} />
 
         <Route
-          path="/documents"
+          path="/документы"
           element={<Documents />} />
 
         <Route
           path="/"
-          element={<Navigate to="/main-page" />} />
+          element={<Navigate to="/главная" />} />
 
         <Route
           path="*"
