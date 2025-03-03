@@ -26,13 +26,11 @@ const ContactsMain = () => {
                                 ул.40 лет Октября, д.62, строение 4, пом.75
                             </li>
                             <li className="contacts-info-item">
-                                <strong>Реквизиты:</strong>
+                                <strong>Директор:</strong>
                                 <br />
-                                ИНН: 2450023724
+                                ФИО: Петров Михаил Андреевич
                                 <br />
-                                КПП: 245001001
-                                <br />
-                                ОГРН: 1072450001304
+                                <span>Телефон:</span><a href="tel:+79232936919"> +7 (923) 293 69 19</a>
                             </li>
                             <li className="contacts-info-item">
                                 <strong>Часы работы:</strong>

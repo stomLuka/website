@@ -167,6 +167,12 @@ const ServAndPricesMain = () => {
         <main className="main">
             <HashLink className="back-to-top" to="#top">↑</HashLink>
             <div className="main-container">
+                <div className="contacts-info-item phone">
+                    <strong>Телефон:</strong>
+                    <br />
+                    <a href="tel:+79135520282">+7 (913) 552 02 82</a>
+                </div>
+
                 <h1 className="main-title">Услуги и цены</h1>
                 <div className="search-container">
                     <input

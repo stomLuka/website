@@ -1,8 +1,10 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import MainPage from './pages/MainPage.jsx';
+import InformationPage from './pages/Information.jsx';
 import ServAndPrices from './pages/ServAndPrices.jsx';
 import NotFound from './pages/NotFound.jsx';
 import Personnel from './pages/Personnel.jsx';
+import License from './pages/License.jsx';
 import Contacts from './pages/Contacts.jsx';
 import Documents from './pages/Documents.jsx';
 
@@ -15,6 +17,10 @@ function App() {
           element={<MainPage />} />
 
         <Route
+          path="/информация"
+          element={<InformationPage />} />
+
+        <Route
           path="/personnel"
           element={<Personnel />} />
 
@@ -25,6 +31,10 @@ function App() {
         <Route
           path="/contacts"
           element={<Contacts />} />
+
+        <Route
+          path="/лицензия"
+          element={<License />} />
 
         <Route
           path="/documents"

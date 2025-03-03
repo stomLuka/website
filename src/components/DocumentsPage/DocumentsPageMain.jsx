@@ -8,6 +8,12 @@ const DocumentsPageMain = () => {
                 ↑
             </HashLink>
             <div className="doc-main-container">
+                <div className="contacts-info-item phone">
+                    <strong>Телефон:</strong>
+                    <br />
+                    <a href="tel:+79135520282">+7 (913) 552 02 82</a>
+                </div>
+
                 <h1 className="doc-page-title">Документы</h1>
 
                 <div className="doc-content-container">
@@ -27,17 +33,17 @@ const DocumentsPageMain = () => {
                     </div>
 
                     <div className="doc-item-container">
-                        <h2 className="doc-item-title">Лицензия</h2>
+                        <h2 className="doc-item-title">Выписка из ЕГРЮЛ</h2>
                         <iframe
-                            src="/website/litsenzia.pdf"
+                            src="/website/vypiska.pdf"
                             width="100%"
                             height="600px"
                             title="Лицензия"
                             frameBorder="0"
                             className="doc-iframe"
                         />
-                        <a href="/website/litsenzia.pdf" download className="doc-download-link">
-                            Скачать Лицензию
+                        <a href="/website/vypiska.pdf" download className="doc-download-link">
+                            Скачать выписку из ЕГРЮЛ
                         </a>
                     </div>
                 </div>

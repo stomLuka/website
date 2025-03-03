@@ -33,7 +33,7 @@ const Header = () => {
             <div className="header-container">
                 <nav className="header-nav">
                     <div>
-                        <Link className="nav-logo" to="/main-page">Линия улыбки</Link>
+                        <Link className="nav-logo" to="/main-page">Стоматология "Линия улыбки"</Link>
                     </div>
 
                     <div className="title">
@@ -43,10 +43,13 @@ const Header = () => {
                             <div className="burger-line"></div>
                         </div>
                         <div className={`dropdown-menu ${isMenuOpen ? 'active' : ''}`} ref={menuRef}>
-                            <Link to="/main-page" onClick={closeMenu}>Главная</Link>
-                            <Link to="/personnel" onClick={closeMenu}>Персонал</Link>
-                            <Link to="/services-and-prices" onClick={closeMenu}>Услуги и цены</Link>
-                            <Link to="/contacts" onClick={closeMenu}>Контакты</Link>
+                            <Link to="/main-page" onClick={closeMenu}>ГЛАВНАЯ</Link>
+                            <Link to="/информация" onClick={closeMenu}>ИНФОРМАЦИЯ</Link>
+                            <Link to="/personnel" onClick={closeMenu}>ВРАЧИ</Link>
+                            <Link to="/services-and-prices" onClick={closeMenu}>ПРЕЙСКУРАНТ</Link>
+                            <Link to="/contacts" onClick={closeMenu}>КОНТАКТЫ</Link>
+                            <Link to="/лицензия" onClick={closeMenu}>ЛИЦЕНЗИЯ</Link>
+                            <Link to="/documents" onClick={closeMenu}>ДОКУМЕНТЫ</Link>
                         </div>
                     </div>
                 </nav>

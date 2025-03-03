@@ -26,6 +26,10 @@ main {
     }
 }
 
+.phone {
+    text-align: right !important;
+}
+
 .main {
     display: flex;
     justify-content: center;
@@ -84,7 +88,7 @@ main {
     display: block;
     width: fit-content;
     margin: 4rem auto 1rem;
-    padding: 0.75rem 1.5rem;
+    padding: 1.25rem 3rem;
     font-size: 1rem;
     color: #fff;
     background-color: var(--primary-color);
@@ -164,6 +168,23 @@ main {
     background-color: var(--secondary-color);
 }
 
+.contacts-info-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto 5rem;
+}
+
+.contacts-info-row span {
+    margin-left: 15px;
+    font-weight: normal;
+}
+
 /* Адаптивный дизайн */
 
 @media (max-width: 1450px) {
@@ -183,6 +204,10 @@ main {
 
     .main-img {
         max-width: 90%;
+    }
+
+    .main-btn {
+        padding: 0.75rem 1.5rem;
     }
 }
 

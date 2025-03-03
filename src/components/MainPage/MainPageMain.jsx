@@ -10,7 +10,14 @@ const MainPageMain = () => {
                 ↑
             </HashLink>
             <div className="main-container">
-                <h1 className="main-title-text">Добро пожаловать в нашу стоматологическую клинику</h1>
+                <div className="contacts-info-item phone">
+                    <strong>Телефон:</strong>
+                    <br />
+                    <a href="tel:+79135520282">+7 (913) 552 02 82</a>
+                </div>
+                <h1 className="main-title-text">Добро пожаловать
+                    В стоматологический кабинет <br />
+                    Оказываем взрослому населению медицинскую стоматологическую помощь</h1>
                 <img className="main-img" src={MainPictureBig || "/placeholder.svg"} alt="Персонал клиники" />
                 <Link className="main-btn" to="/services-and-prices">
                     Услуги и цены
@@ -30,15 +37,8 @@ const MainPageMain = () => {
                                 663606, Красноярский край, г.Канск,
                                 <br />
                                 ул.40 лет Октября, д.62, строение 4, пом.75
-                            </li>
-                            <li className="contacts-info-item">
-                                <strong>Реквизиты:</strong>
                                 <br />
-                                ИНН: 2450023724
-                                <br />
-                                КПП: 245001001
-                                <br />
-                                ОГРН: 1072450001304
+                                ТРЦ "Порт Артур" 1 этаж
                             </li>
                             <li className="contacts-info-item">
                                 <strong>Часы работы:</strong>
@@ -52,6 +52,11 @@ const MainPageMain = () => {
                     </div>
                 </div>
 
+                <div className="contacts-info-row">
+                    <span>ИНН: 2450023724</span>
+                    <span>ОГРН: 1072450001304</span>
+                    <span>ОКВЭД: 86.23</span>
+                </div>
                 <h2 className="main-title">Мы на карте</h2>
 
                 <div className="map">
