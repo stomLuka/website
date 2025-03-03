@@ -13,36 +13,36 @@ function App() {
     <>
       <Routes>
         <Route
-          path="/главная"
+          path="/main-page"
           element={<MainPage />} />
 
         <Route
-          path="/информация"
+          path="/information"
           element={<InformationPage />} />
 
         <Route
-          path="/врачи"
+          path="/personnel"
           element={<Personnel />} />
 
         <Route
-          path="/прейскурант"
+          path="/services-and-prices"
           element={<ServAndPrices />} />
 
         <Route
-          path="/контакты"
+          path="/contacts"
           element={<Contacts />} />
 
         <Route
-          path="/лицензия"
+          path="/license"
           element={<License />} />
 
         <Route
-          path="/документы"
+          path="/documents"
           element={<Documents />} />
 
         <Route
           path="/"
-          element={<Navigate to="/главная" />} />
+          element={<Navigate to="/main-page" />} />
 
         <Route
           path="*"

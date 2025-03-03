@@ -33,7 +33,7 @@ const Header = () => {
             <div className="header-container">
                 <nav className="header-nav">
                     <div>
-                        <Link className="nav-logo" to="/main-page">Стоматология "Линия улыбки"</Link>
+                        <Link className="nav-logo" to="/main-page">Стоматология <br /> "Линия улыбки"</Link>
                     </div>
 
                     <div className="title">
@@ -43,18 +43,18 @@ const Header = () => {
                             <div className="burger-line"></div>
                         </div>
                         <div className={`dropdown-menu ${isMenuOpen ? 'active' : ''}`} ref={menuRef}>
-                            <Link to="/главная" onClick={closeMenu}>ГЛАВНАЯ</Link>
-                            <Link to="/информация" onClick={closeMenu}>ИНФОРМАЦИЯ</Link>
-                            <Link to="/врачи" onClick={closeMenu}>ВРАЧИ</Link>
-                            <Link to="/прейскурант" onClick={closeMenu}>ПРЕЙСКУРАНТ</Link>
-                            <Link to="/контакты" onClick={closeMenu}>КОНТАКТЫ</Link>
-                            <Link to="/лицензия" onClick={closeMenu}>ЛИЦЕНЗИЯ</Link>
-                            <Link to="/документы" onClick={closeMenu}>ДОКУМЕНТЫ</Link>
+                            <Link to="/main-page" onClick={closeMenu}>ГЛАВНАЯ</Link>
+                            <Link to="/information" onClick={closeMenu}>ИНФОРМАЦИЯ</Link>
+                            <Link to="/personnel" onClick={closeMenu}>ВРАЧИ</Link>
+                            <Link to="/services-and-prices" onClick={closeMenu}>ПРЕЙСКУРАНТ</Link>
+                            <Link to="/contacts" onClick={closeMenu}>КОНТАКТЫ</Link>
+                            <Link to="/license" onClick={closeMenu}>ЛИЦЕНЗИЯ</Link>
+                            <Link to="/documents" onClick={closeMenu}>ДОКУМЕНТЫ</Link>
                         </div>
                     </div>
                 </nav>
-            </div>
-        </header>
+            </div >
+        </header >
     );
 };
 
