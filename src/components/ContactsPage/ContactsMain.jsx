@@ -32,7 +32,6 @@ const ContactsMain = () => {
                                 <br />
                                 ФИО: Петров Михаил Андреевич
                                 <br />
-                                <span>Телефон:</span><a href="tel:+79232936919"> +7 (923) 293 69 19</a>
                             </li>
                             <li className="contacts-info-item">
                                 <strong>Часы работы:</strong>

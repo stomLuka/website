@@ -16,7 +16,7 @@ const MainPageMain = () => {
                     <a href="tel:+79135520282">+7 (913) 552 02 82</a>
                 </div>
                 <h1 className="main-title-text">Добро пожаловать
-                    В стоматологический кабинет <br />
+                    в стоматологический кабинет! <br />
                     Оказываем взрослому населению медицинскую стоматологическую помощь</h1>
                 <img className="main-img" src={MainPictureBig || "/placeholder.svg"} alt="Персонал клиники" />
                 <Link className="main-btn" to="/services-and-prices">
@@ -73,5 +73,4 @@ const MainPageMain = () => {
     )
 }
 
-export default MainPageMain
-
+export default MainPageMain;
